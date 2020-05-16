@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template 1</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+   
+    <header>
+        <div class="container">
+            <h1>I am a Header</h1>
+            <p>This area is a header with a 'container' div inside. The container div only has a max-width property on it. This is to keep the content inside from expanding out to the full width of the screen. While allowing the header background color to do so.<p>
+        </div> 
+    </header>
+
+    <div class="row bg-red">
+        <div class="container">
+            <div class="col col-half">
+                <h2>I am a Column</h2>
+                <p>Websites can be seen as grid systems. These systems have rows and columns.</p>
+            </div>
+            <div class="col col-half">
+                <h2>I am a Column</h2>
+                <p>Here we have a row with a background color of red and 40px padding to give it some nice spacing. We also have two columns each floating left and with a width of 50%. These columns also have 20px margin applied to them to keep them from bumping into one another and 20px padding to keep the words from bumping up against their sides.</p>
+            </div>
+        </div>
+        <div class="clearfix"></div>    
+    </div>
+   
+    <div class="row bg-blue">
+        <div class="container">
+            <div class="col col-thirds">
+                <h2>I am a Column</h2>
+                <p>These columns are 30%</p>
+            </div>
+            <div class="col col-thirds">
+                <h2>I am a Column</h2>
+                <p>There are comments in the CSS to show what is happening and how to write "clean" or "dry" css code.</p>
+            </div>
+            <div class="col col-thirds">
+                <h2>I am a Column</h2>
+                <p>These columns are 30%</p>
+            </div>            
+        </div>
+        <div class="clearfix"></div>     
+    </div>
+       
+    <footer>
+        <div class="container">
+            <h2>I am a Footer</h2>
+            <p>This is our footer. It matches the header so they are combined in the css. The footer is then also targeted later in the css to give it, and only it, a border-top of 5px blue.</p>        
+        </div>    
+    </footer>
+
+
+</body>
+</html>

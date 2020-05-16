@@ -1,0 +1,60 @@
+body{
+    font-family: arial;
+}
+
+
+/*remember tags can be accessed just by writing their tag names. A comma tells css to stylize both the header and the footer */
+header, footer{ 
+    background-color: black;
+    padding: 30px;
+    color: white;
+}
+
+
+/*This is to show how to target something inside of an HTML tag. A space tells css to look for, first, the header tag, then a paragraph inside of it */
+header p, footer p{ 
+    font-size: 18px;
+}
+
+/*A class must always start with a period '.' The max-width tells css that it is allowed to go smaller for phones but not bigger */
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+/*These rows have padding on them for some nice spacing. */
+.row{
+    padding: 40px;
+}
+
+/*We are using a "clear float" in certain areas (before the closing of our rows) in order to keep the floats from allowing the next row to wrap weirdly*/
+
+.clearfix{
+    clear: both;    
+}
+
+.col {
+    box-sizing: border-box;
+    float: left;
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+}
+
+.bg-red{
+    background-color: lightcoral;
+}
+
+.bg-blue{
+    background-color: lightskyblue;
+}
+
+/*In order to make this truely adaptive you would need to add media queries to set the width of the columns to 100% on mobile.*/
+.col-half{
+    width: 45%;
+}
+
+.col-thirds{
+    width: 30%;
+}
