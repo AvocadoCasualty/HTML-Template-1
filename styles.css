@@ -1,5 +1,6 @@
 body{
     font-family: arial;
+    margin: 0px;
 }
 
 
@@ -43,11 +44,11 @@ header p, footer p{
 }
 
 .bg-red{
-    background-color: lightcoral;
+    background-color: #796666;
 }
 
 .bg-blue{
-    background-color: lightskyblue;
+    background-color: #838f96;
 }
 
 /*In order to make this truely adaptive you would need to add media queries to set the width of the columns to 100% on mobile.*/
@@ -57,4 +58,8 @@ header p, footer p{
 
 .col-thirds{
     width: 30%;
+}
+
+footer{
+    border-top: 5px solid blue;
 }
